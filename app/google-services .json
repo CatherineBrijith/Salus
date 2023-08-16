@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "333271982836",
+    "firebase_url": "https://salus-4967a-default-rtdb.firebaseio.com",
+    "project_id": "salus-4967a",
+    "storage_bucket": "salus-4967a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333271982836:android:b374f94e5991af2cf274a1",
+        "android_client_info": {
+          "package_name": "com.example.salus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333271982836-1e8493nauj1v08dchmn5o74scep5s8e8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa9wQdSewXrC7w5JTDYNY0jHcqkANdfgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333271982836-1e8493nauj1v08dchmn5o74scep5s8e8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<shape
+    android:shape = "rectangle"
+    xmlns:android = "http://schemas.android.com/apk/res/android" >
+    <solid android:color="#fff"/> <!-- Define the fill color for the rectangle -->
+    <corners android:radius="15dp"/>
+
+    <gradient
+        android:startColor = "#220301"
+        android:centerColor = "#DF1C0D"
+        android:endColor = "#220301"
+        android:angle="30"
+        android:type = "linear" />
+</shape>

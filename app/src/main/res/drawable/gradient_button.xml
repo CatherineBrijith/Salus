@@ -1,0 +1,14 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#fff"/> <!-- Define the fill color for the rectangle -->
+    <corners android:radius="50dp"/> <!-- Define the radius for the corners -->
+
+    <!-- Add any other attributes you need, such as stroke width or dash pattern -->
+    <gradient
+        android:startColor = "#250229"
+        android:centerColor = "#52024f"
+        android:endColor = "#250229"
+        android:angle="180"
+        android:type = "linear" />
+</shape>

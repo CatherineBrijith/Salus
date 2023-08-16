@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_drawable_bg"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sos"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="SOS"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/sos"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_location"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="MY CURRENT LOCATION"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:onClick="gotomapactivity"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/gradient_drawable1"/>
+      <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_profile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="profile"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:onClick="gotouserprofile"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/gradient_drawable1"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_addcontacts"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradient_drawable1"
+            android:text="Emergency contacts"
+            android:onClick="gotoaddcontacts"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_enable"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Enable foreground Actions"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:onClick="foreground"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/gradient_drawable1"/>
+        <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Logout"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+            android:onClick="logout"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/gradient_drawable1"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
